@@ -66,6 +66,3 @@ jupyter notebook QA_BOT_langchain.ipynb
 
 🔹 Gradio – for building the web interface.
 
-🤝 Contributing
-
-Pull requests are welcome! Please ensure that your contributions align with the project's objectives.
