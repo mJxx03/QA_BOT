@@ -54,6 +54,14 @@ jupyter notebook QA_BOT_langchain.ipynb
 
 1️⃣ Upload a PDF document through the web interface.2️⃣ The bot extracts text from the document and processes it into chunks.3️⃣ ChromaDB stores the vector embeddings for efficient retrieval.4️⃣ When a user asks a question, the system retrieves the most relevant text segments.5️⃣ IBM WatsonX AI generates a response based on the retrieved information.
 
+📌 Demonstrating Chatbot Implementation in Colab & IBM Cloud
+
+During my coursework on Coursera, I successfully implemented the chatbot within the IBM Cloud environment, where WatsonX AI was pre-integrated. This setup provided seamless access to AI capabilities without requiring manual API key configuration.
+
+However, when attempting the same implementation in Google Colab, I encountered a limitation—IBM WatsonX requires an API key for authentication in external environments. Since my Coursera-provided IBM Cloud instance had pre-configured access, an API key was not required there.
+
+Due to this restriction in Colab, I am unable to demonstrate the chatbot directly within this environment. Instead, I will provide screenshots from the IBM Cloud environment, showcasing the chatbot’s interface, query processing, and response generation, ensuring a clear demonstration of its capabilities.
+
 🛠 Technologies Used
 
 🔹 IBM WatsonX AI – for embedding and answering questions.
@@ -65,4 +73,3 @@ jupyter notebook QA_BOT_langchain.ipynb
 🔹 pypdf – for extracting text from PDFs.
 
 🔹 Gradio – for building the web interface.
-
